@@ -5,11 +5,11 @@ export function aboutNavHref(label: string): string {
     case "About":
       return "/about"
     case "Audition":
-      return "/#audition"
+      return "/audition"
     case "Program":
       return "/#process"
     case "Apply":
-      return "/#apply"
+      return "/apply"
     default:
       return "/"
   }

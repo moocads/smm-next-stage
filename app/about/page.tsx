@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { Header } from "@/components/header"
-import { HeroSection } from "@/components/hero-section"
 import { Footer } from "@/components/footer"
+import { AboutHeroSection } from "@/components/about/about-hero-section"
 import { loadAboutPageContent, AboutPageBody } from "@/components/about/about-page-body"
 
 export const metadata: Metadata = {
@@ -25,15 +25,13 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#0a0a12] text-white">
       <Header />
-      <HeroSection
-        backgroundSrc="/images/about-banner.png"
-        backgroundAlt={data.hero.title}
-        eyebrow={data.hero.lead}
+      <AboutHeroSection
         headlineLine1={line1}
         headlineLine2={line2}
-        chineseLine={data.hero.chineseLabel}
+        eyebrow={data.hero.lead}
         description={data.hero.body}
-        primaryCta={{ label: data.hero.primaryCta, href: "/#apply" }}
+        chineseLine={data.hero.chineseLabel}
+        primaryCta={{ label: data.hero.primaryCta, href: "/apply" }}
         secondaryCta={{ label: data.hero.secondaryCta, href: "/#process" }}
       />
       <AboutPageBody data={data} />

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next"
 import { Montserrat, Lato } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { Toaster } from "@/components/ui/sonner"
 import "./globals.css"
 
 const montserrat = Montserrat({
@@ -17,7 +18,7 @@ const lato = Lato({
 })
 
 export const metadata: Metadata = {
-  title: "SMM Entertainment - NEXT STAGE Artist Audition Program",
+  title: "Next Stage - NEXT STAGE Artist Audition Program",
   description:
     "Discover, train and launch the next generation of singers, dancers, performers and creators. Join the NEXT STAGE artist audition program.",
   generator: "v0.app",
@@ -55,6 +56,7 @@ export default function RootLayout({
     <html lang="en" className={`${montserrat.variable} ${lato.variable}`} style={{ backgroundColor: "#0a0a12" }}>
       <body className="font-sans antialiased" style={{ backgroundColor: "#0a0a12" }}>
         {children}
+        <Toaster theme="dark" richColors position="top-center" />
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>

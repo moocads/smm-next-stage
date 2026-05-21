@@ -28,7 +28,7 @@ const features: Feature[] = [
     iconSrc: "/images/03_media-exposure_globe.svg",
     title: "Media Exposure",
     description:
-      "Global platform exposure through SMM's network, media partners and official channels.",
+      "Global platform exposure through Next Stage's network, media partners and official channels.",
   },
 ]
 

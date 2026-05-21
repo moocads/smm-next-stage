@@ -20,7 +20,7 @@ export function CtaSection() {
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#ff4cc8]/20 via-[#1c5bd1]/10 to-transparent" />
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/smm-entertainment-banner-ZQsbgRGnXQRsuE62mEVXy2ISKMwCcg.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Next Stage-entertainment-banner-ZQsbgRGnXQRsuE62mEVXy2ISKMwCcg.png"
               alt=""
               fill
               className="object-cover object-bottom opacity-10"

@@ -7,7 +7,7 @@ import { ArrowRight, Play } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const HOME_DEFAULTS = {
-  backgroundSrc: "/images/smm-entertainment-banner.png",
+  backgroundSrc: "/images/next-stage-banner.png",
   backgroundAlt: "NEXT STAGE background with performers",
   eyebrow: "Artist Audition Program",
   headlineLine1: "NEXT",
