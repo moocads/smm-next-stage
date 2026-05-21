@@ -49,7 +49,7 @@ export function HeroSection(props: HeroSectionProps = {}) {
           src={backgroundSrc}
           alt={backgroundAlt}
           fill
-          className="object-cover object-right"
+          className="object-cover object-right opacity-50 md:opacity-100"
           priority
           quality={90}
         />
@@ -106,7 +106,7 @@ export function HeroSection(props: HeroSectionProps = {}) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-2xl sm:text-3xl text-gray-400 mb-4 font-heading"
+            className="text-2xl sm:text-3xl text-white mb-4 font-heading"
           >
             {chineseLine}
           </motion.p>
@@ -115,7 +115,7 @@ export function HeroSection(props: HeroSectionProps = {}) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-base sm:text-lg text-gray-400 max-w-md mb-8 leading-relaxed"
+            className="text-base sm:text-lg text-white max-w-md mb-8 leading-relaxed"
           >
             {description}
           </motion.p>

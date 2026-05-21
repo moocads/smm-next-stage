@@ -14,7 +14,7 @@ export function ApplyHeroSection() {
           src="/images/audition-banner.jpg"
           alt="NEXT STAGE apply banner"
           fill
-          className="object-cover object-center md:object-right"
+          className="object-cover object-center opacity-50 md:object-right md:opacity-100"
           priority
           quality={90}
         />
