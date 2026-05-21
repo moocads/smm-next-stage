@@ -88,13 +88,13 @@ export function ProcessSection() {
                   >
                     {step.number}
                   </span>
-                  <div className="w-10 h-10 rounded-lg bg-[#00c2f5]/10 flex items-center justify-center">
+                  <div className="w-14 h-14 flex items-center justify-center">
                     <Image
                       src={step.iconSrc}
                       alt=""
-                      width={20}
-                      height={20}
-                      className="h-5 w-5 object-contain"
+                      width={180}
+                      height={180}
+                      className="object-contain"
                       aria-hidden
                     />
                   </div>
