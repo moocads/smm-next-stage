@@ -11,7 +11,7 @@ export function ApplyHeroSection() {
     <section className="relative flex min-h-screen items-center overflow-hidden pt-16">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/audition-banner.png"
+          src="/images/audition-banner.jpg"
           alt="NEXT STAGE apply banner"
           fill
           className="object-cover object-center md:object-right"
@@ -39,14 +39,7 @@ export function ApplyHeroSection() {
             className="mb-6 font-heading text-5xl font-bold uppercase leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl xl:text-8xl"
           >
             <span
-              className="block"
-              style={{
-                background: "linear-gradient(90deg, #7ee8ff 0%, #c77dff 50%, #f651c8 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
-              }}
-            >
+              className="block text-white" >
               Apply to
             </span>
             <span
