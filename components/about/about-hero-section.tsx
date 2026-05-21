@@ -29,7 +29,7 @@ export function AboutHeroSection({
     <section className="relative flex min-h-screen items-center overflow-hidden pt-16">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/about-banner.jpg"
+          src="/images/about-banner.png"
           alt="About NEXT STAGE"
           fill
           className="object-cover object-center md:object-right"
