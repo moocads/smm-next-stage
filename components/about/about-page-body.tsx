@@ -64,6 +64,11 @@ function parseListAfterHeading(block: string, heading: string): string[] {
 
 export const loadAboutPageContent = cache((): AboutPageData => {
   const fullPath = path.join(process.cwd(), "public", "about-page-content")
+  if (!fs.existsSync(fullPath)) {
+    throw new Error(
+      "Missing public/about-page-content. Ensure this file is committed and deployed.",
+    )
+  }
   const raw = fs.readFileSync(fullPath, "utf8")
   const sections = raw.split(/\n---\n/).map((s) => s.trim())
 
