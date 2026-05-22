@@ -7,7 +7,7 @@ export function aboutNavHref(label: string): string {
     case "Audition":
       return "/audition"
     case "Program":
-      return "/#process"
+      return "/program"
     case "Apply":
       return "/apply"
     default:
