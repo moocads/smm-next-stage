@@ -263,7 +263,7 @@ export const loadAboutPageContent = cache((): AboutPageData => {
     },
     footer: {
       nav: footerNav.length ? footerNav : ["Home", "Audition", "Program", "Apply", "About"],
-      social: footerSocial.length ? footerSocial : ["TikTok", "Instagram", "YouTube", "X"],
+      social: footerSocial.length ? footerSocial : ["TikTok", "Instagram", "YouTube", "小红书"],
       copyright: copyrightLine,
     },
   }

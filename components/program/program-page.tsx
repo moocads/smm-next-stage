@@ -149,7 +149,7 @@ const platformPartners = [
   { name: "Spotify", icon: "/images/partner-icon/spotify.png" },
   { name: "QQ Music", icon: "/images/partner-icon/qq_music.png" },
   { name: "TikTok", icon: "/images/partner-icon/tiktok.png" },
-  { name: "小红书", icon: "/images/partner-icon/tencent_music.png" },
+  { name: "小红书", icon: "/images/xiaohongshu.svg" },
   { name: "YouTube", icon: "/images/partner-icon/youtube_logo.png" },
 ]
 

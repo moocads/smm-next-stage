@@ -139,7 +139,7 @@ export function HeroSection(props: HeroSectionProps = {}) {
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
-            <Button
+            {/* <Button
               asChild
               size="lg"
               variant="outline"
@@ -149,7 +149,7 @@ export function HeroSection(props: HeroSectionProps = {}) {
                 <Play className="h-4 w-4" />
                 {secondaryCta.label}
               </Link>
-            </Button>
+            </Button> */}
           </motion.div>
         </div>
       </div>
