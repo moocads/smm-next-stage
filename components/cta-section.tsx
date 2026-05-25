@@ -20,7 +20,7 @@ export function CtaSection() {
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#ff4cc8]/20 via-[#1c5bd1]/10 to-transparent" />
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Next Stage-entertainment-banner-ZQsbgRGnXQRsuE62mEVXy2ISKMwCcg.png"
+              src="/images/footer-banner.png"
               alt=""
               fill
               className="object-cover object-bottom opacity-10"
@@ -68,7 +68,7 @@ export function CtaSection() {
                   background: "linear-gradient(90deg, #00c2f5 0%, #1c5bd1 50%, #f651c8 100%)",
                 }}
               >
-                <Link href="#" className="flex items-center gap-2">
+                <Link href="/apply" className="flex items-center gap-2">
                   Apply Now
                   <ArrowRight className="h-4 w-4" />
                 </Link>
@@ -79,10 +79,10 @@ export function CtaSection() {
                 variant="outline"
                 className="border-gray-600 bg-transparent hover:bg-gray-800/50 text-white font-semibold px-8"
               >
-                <Link href="#" className="flex items-center gap-2">
+                {/* <Link href="#" className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
                   Contact Us
-                </Link>
+                </Link> */}
               </Button>
             </motion.div>
           </div>
