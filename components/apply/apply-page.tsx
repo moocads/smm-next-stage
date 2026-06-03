@@ -14,7 +14,7 @@ const whoCanApply = [
 ]
 
 const whoCanApplyNotes = [
-  { icon: User, text: "Age 16+ preferred" },
+  { icon: User, text: "Age 12+ preferred" },
   { icon: MapPin, text: "Canada / GTA priority" },
   { icon: Globe, text: "Online submissions welcome" },
 ]
