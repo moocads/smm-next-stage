@@ -13,7 +13,7 @@ const lookingFor = [
 ]
 
 const requirements = [
-  { icon: "/images/audition-icon-05.png", title: "Age 16+ preferred" },
+  { icon: "/images/audition-icon-05.png", title: "Age 12+ preferred" },
   { icon: "/images/audition-icon-06.png", title: "Canada / GTA priority" },
   { icon: "/images/audition-icon-07.png", title: "Submit one performance or self-introduction video" },
   { icon: "/images/audition-icon-08.png", title: "Open to training and content creation" },

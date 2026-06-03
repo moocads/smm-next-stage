@@ -64,14 +64,7 @@ export function ApplyHeroSection() {
             For singers, dancers, performers and creators ready to grow into artists.
           </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.25 }}
-            className="mb-8 text-base text-[#c9b8ff] sm:text-lg"
-          >
-            报名申请页面
-          </motion.p>
+  
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}

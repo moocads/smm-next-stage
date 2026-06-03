@@ -19,7 +19,6 @@ const whatYouGet = [
   {
     number: "01",
     title: "ORIGINAL MUSIC CREATION",
-    titleCn: "原创音乐制作打造",
     icon: Music,
     accent: "border-cyan-400/40 shadow-[0_0_24px_rgba(0,194,245,0.12)]",
     bullets: [
@@ -32,7 +31,6 @@ const whatYouGet = [
   {
     number: "02",
     title: "PERFORMANCE & CHOREOGRAPHY",
-    titleCn: "舞台表演与舞蹈设计",
     icon: User,
     accent: "border-purple-400/40 shadow-[0_0_24px_rgba(167,139,250,0.12)]",
     bullets: [
@@ -45,7 +43,6 @@ const whatYouGet = [
   {
     number: "03",
     title: "VISUAL PRODUCTION",
-    titleCn: "视觉内容打造",
     icon: Camera,
     accent: "border-pink-400/40 shadow-[0_0_24px_rgba(244,114,182,0.12)]",
     bullets: [
@@ -58,7 +55,6 @@ const whatYouGet = [
   {
     number: "04",
     title: "ARTIST BRANDING",
-    titleCn: "艺人形象与定位",
     icon: Sparkles,
     accent: "border-cyan-400/35 shadow-[0_0_24px_rgba(0,194,245,0.1)]",
     bullets: [
@@ -71,7 +67,6 @@ const whatYouGet = [
   {
     number: "05",
     title: "GLOBAL MUSIC DISTRIBUTION",
-    titleCn: "全球音乐发行",
     icon: Globe,
     accent: "border-purple-400/35 shadow-[0_0_24px_rgba(167,139,250,0.1)]",
     bullets: [
@@ -84,7 +79,6 @@ const whatYouGet = [
   {
     number: "06",
     title: "CONTENT & PLATFORM GROWTH",
-    titleCn: "内容运营与平台增长",
     icon: TrendingUp,
     accent: "border-pink-400/35 shadow-[0_0_24px_rgba(244,114,182,0.1)]",
     bullets: [
@@ -97,7 +91,6 @@ const whatYouGet = [
   {
     number: "07",
     title: "COMMERCIAL OPPORTUNITIES",
-    titleCn: "商业管理与合作",
     icon: Briefcase,
     accent: "border-cyan-400/30 shadow-[0_0_24px_rgba(0,194,245,0.08)]",
     bullets: [
@@ -113,33 +106,28 @@ const incubationSteps = [
   {
     number: "01",
     title: "Artist Evaluation",
-    titleCn: "评估",
     description:
       "We evaluate your talent, potential, and goals to build a personalized development roadmap.",
   },
   {
     number: "02",
     title: "Identity & Positioning",
-    titleCn: "定位",
     description:
       "Define your unique identity, concept, and positioning that stands out in the global market.",
   },
   {
     number: "03",
     title: "Music & Content Creation",
-    titleCn: "内容",
     description: "Create original music and high-quality content that brings your vision to life.",
   },
   {
     number: "04",
     title: "Release & Growth",
-    titleCn: "发行与增长",
     description: "Launch your music, expand your audience, and grow your presence across key platforms.",
   },
   {
     number: "05",
     title: "Monetization",
-    titleCn: "商业化",
     description: "Unlock commercial opportunities and build sustainable income as an artist.",
   },
 ]
@@ -221,7 +209,7 @@ export function ProgramPageBody() {
                 <div className="flex flex-1 flex-col rounded-xl border border-white/10 bg-[#0a0f27]/80 p-5">
                   <p className="text-sm font-bold text-cyan-300">{step.number}</p>
                   <h3 className="mt-2 font-heading text-lg font-semibold text-white">{step.title}</h3>
-                  <p className="text-sm text-[#c9b8ff]">{step.titleCn}</p>
+                 
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">{step.description}</p>
                 </div>
                 {index < incubationSteps.length - 1 ? (
@@ -322,7 +310,7 @@ function WhatYouGetCard({
         <Icon className="h-5 w-5 text-purple-300/80" />
       </div>
       <h3 className="mt-3 font-heading text-sm font-bold leading-tight text-white sm:text-base">{item.title}</h3>
-      <p className="mt-1 text-xs text-[#c9b8ff] sm:text-sm">{item.titleCn}</p>
+    
       <ul className="mt-4 flex-1 space-y-2">
         {item.bullets.map((bullet) => (
           <li key={bullet} className="flex gap-2 text-sm text-white/70">

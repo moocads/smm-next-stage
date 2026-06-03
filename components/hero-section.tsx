@@ -12,7 +12,7 @@ const HOME_DEFAULTS = {
   eyebrow: "Artist Audition Program",
   headlineLine1: "NEXT",
   headlineLine2: "STAGE",
-  chineseLine: "艺人招募计划",
+
   description:
     "Discover, train and launch the next generation of singers, dancers, performers and creators.",
   primaryCta: { label: "Start Your Audition", href: "#apply" },
@@ -25,7 +25,6 @@ export interface HeroSectionProps {
   eyebrow?: string
   headlineLine1?: string
   headlineLine2?: string
-  chineseLine?: string
   description?: string
   primaryCta?: { label: string; href: string }
   secondaryCta?: { label: string; href: string }
@@ -37,7 +36,6 @@ export function HeroSection(props: HeroSectionProps = {}) {
   const eyebrow = props.eyebrow ?? HOME_DEFAULTS.eyebrow
   const headlineLine1 = props.headlineLine1 ?? HOME_DEFAULTS.headlineLine1
   const headlineLine2 = props.headlineLine2 ?? HOME_DEFAULTS.headlineLine2
-  const chineseLine = props.chineseLine ?? HOME_DEFAULTS.chineseLine
   const description = props.description ?? HOME_DEFAULTS.description
   const primaryCta = props.primaryCta ?? HOME_DEFAULTS.primaryCta
   const secondaryCta = props.secondaryCta ?? HOME_DEFAULTS.secondaryCta
@@ -102,14 +100,6 @@ export function HeroSection(props: HeroSectionProps = {}) {
             </span>
           </motion.h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-2xl sm:text-3xl text-white mb-4 font-heading"
-          >
-            {chineseLine}
-          </motion.p>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}

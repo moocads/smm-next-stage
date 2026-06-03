@@ -65,14 +65,7 @@ export function AuditionHeroSection() {
             For singers, dancers, performers and creators ready to grow into artists.
           </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-base sm:text-lg text-[#c9b8ff] mb-8"
-          >
-            艺人招募页面
-          </motion.p>
+      
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
