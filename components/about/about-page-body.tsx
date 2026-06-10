@@ -280,10 +280,10 @@ const gradientBtn =
   "linear-gradient(90deg, #00c2f5 0%, #1c5bd1 50%, #f651c8 100%)" as const
 
 const advantageIcons = [
-  { label: "TikTok Ecosystem Access", img: "/images/about-tiktok-partner.png" },
+  { label: "Built for the Creator Economy", img: "/images/about-tiktok-partner.png" },
   { label: "International Industry Reach", img: "/images/about-global-network.png" },
   { label: "Distribution & Exposure", img: "/images/tiktok-partner.png" },
-  { label: "Real Production Capability", img: "/images/about-advantages.png" }
+  { label: "Real Production Capability", img: "/images/about-advantages.jpg" }
 ] as const
 
 const poweredIcons = [
